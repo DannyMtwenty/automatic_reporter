@@ -1,0 +1,1322 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!-- Note the addition of the viewport! -->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+    <title>Model Report</title>
+
+</head>
+<body>
+<main class="wrapper">
+  <header class="header">
+    <section class="container">
+      <h1> Model Report</h1>
+      <p>This report was automatically generated</p>
+    </section>
+  </header>
+   
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="container" id="summary">
+    <h2>Quick summary</h2>
+    <h3>Accuracy</h3>
+    
+    <p><em>VGG19</em> analysed <em>100 image(s)</em>, achieving an
+        accuracy of <em>67.00%.</em></p>
+    
+    <p><em>MobileNet</em> analysed <em>100 image(s)</em>, achieving an
+        accuracy of <em>68.00%.</em></p>
+    
+    <h3>Trouble spots</h3>
+    
+    <p><em>VGG19</em> misidentified <em>33 image(s)</em>.</p>
+    
+    <p><em>MobileNet</em> misidentified <em>32 image(s)</em>.</p>
+    
+    <p><em>22</em> misidentified image(s) were common to all models.</p>
+</section>
+</body>
+</html>
+    
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="container" >
+    <h2>VGG19 - Model Results</h2>
+    <p>Results for each image as predicted by model <i>'VGG19'</i>, as captured in file <i>'VGG19_results.csv'</i>.</p>
+    <table border="1" class="dataframe" id="VGG19">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>imagenet_index</th>
+      <th>imagenet_category</th>
+      <th>correct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>cat.1001.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.103.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1031.jpg</th>
+      <td>158</td>
+      <td>toy terrier</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1045.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1047.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1068.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1087.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.110.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1100.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1103.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1107.jpg</th>
+      <td>332</td>
+      <td>Angora, Angora rabbit</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1116.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1136.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1145.jpg</th>
+      <td>588</td>
+      <td>hamper</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1158.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1161.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1177.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.118.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1182.jpg</th>
+      <td>247</td>
+      <td>Saint Bernard, St Bernard</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1195.jpg</th>
+      <td>245</td>
+      <td>French bulldog</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1198.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1226.jpg</th>
+      <td>203</td>
+      <td>West Highland white terrier</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1231.jpg</th>
+      <td>700</td>
+      <td>paper towel</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.125.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1258.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.127.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.132.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.147.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.150.jpg</th>
+      <td>261</td>
+      <td>keeshond</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.155.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.173.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.183.jpg</th>
+      <td>883</td>
+      <td>vase</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.196.jpg</th>
+      <td>534</td>
+      <td>dishwasher, dish washer, dishwashing machine</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.198.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.2.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.205.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.207.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.209.jpg</th>
+      <td>478</td>
+      <td>carton</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.23.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.237.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.259.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.264.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.282.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.295.jpg</th>
+      <td>463</td>
+      <td>bucket, pail</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.312.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.313.jpg</th>
+      <td>700</td>
+      <td>paper towel</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.340.jpg</th>
+      <td>478</td>
+      <td>carton</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.346.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.353.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.356.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.379.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.39.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.405.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.438.jpg</th>
+      <td>332</td>
+      <td>Angora, Angora rabbit</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.444.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.469.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.489.jpg</th>
+      <td>356</td>
+      <td>weasel</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.491.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.5.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.50.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.502.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.512.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.525.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.526.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.533.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.539.jpg</th>
+      <td>258</td>
+      <td>Samoyed, Samoyede</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.556.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.557.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.577.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.578.jpg</th>
+      <td>664</td>
+      <td>monitor</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.584.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.590.jpg</th>
+      <td>478</td>
+      <td>carton</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.594.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.600.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.602.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.603.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.604.jpg</th>
+      <td>195</td>
+      <td>Boston bull, Boston terrier</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.631.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.641.jpg</th>
+      <td>750</td>
+      <td>quilt, comforter, comfort, puff</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.694.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.699.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.714.jpg</th>
+      <td>463</td>
+      <td>bucket, pail</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.716.jpg</th>
+      <td>369</td>
+      <td>siamang, Hylobates syndactylus, Symphalangus syndactylus</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.724.jpg</th>
+      <td>225</td>
+      <td>malinois</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.740.jpg</th>
+      <td>876</td>
+      <td>tub, vat</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.749.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.767.jpg</th>
+      <td>968</td>
+      <td>cup</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.772.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.777.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.811.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.814.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.906.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.908.jpg</th>
+      <td>87</td>
+      <td>African grey, African gray, Psittacus erithacus</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.92.jpg</th>
+      <td>496</td>
+      <td>Christmas stocking</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.921.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.953.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.954.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.965.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.974.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.994.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+</body>
+</html>
+
+    
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<section class="container" >
+    <h2>MobileNet - Model Results</h2>
+    <p>Results for each image as predicted by model <i>'MobileNet'</i>, as captured in file <i>'MobileNet_results.csv'</i>.</p>
+    <table border="1" class="dataframe" id="MobileNet">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>imagenet_index</th>
+      <th>imagenet_category</th>
+      <th>correct</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>cat.1001.jpg</th>
+      <td>332</td>
+      <td>Angora, Angora rabbit</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.103.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1031.jpg</th>
+      <td>151</td>
+      <td>Chihuahua</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1045.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1047.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1068.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1087.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.110.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1100.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1103.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1107.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1116.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1136.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1145.jpg</th>
+      <td>588</td>
+      <td>hamper</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1158.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1161.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1177.jpg</th>
+      <td>332</td>
+      <td>Angora, Angora rabbit</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.118.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1182.jpg</th>
+      <td>264</td>
+      <td>Cardigan, Cardigan Welsh corgi</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1195.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1198.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1226.jpg</th>
+      <td>742</td>
+      <td>printer</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.1231.jpg</th>
+      <td>700</td>
+      <td>paper towel</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.125.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.1258.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.127.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.132.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.147.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.150.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.155.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.173.jpg</th>
+      <td>539</td>
+      <td>doormat, welcome mat</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.183.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.196.jpg</th>
+      <td>534</td>
+      <td>dishwasher, dish washer, dishwashing machine</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.198.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.2.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.205.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.207.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.209.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.23.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.237.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.259.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.264.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.282.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.295.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.312.jpg</th>
+      <td>861</td>
+      <td>toilet seat</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.313.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.340.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.346.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.353.jpg</th>
+      <td>287</td>
+      <td>lynx, catamount</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.356.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.379.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.39.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.405.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.438.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.444.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.469.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.489.jpg</th>
+      <td>797</td>
+      <td>sleeping bag</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.491.jpg</th>
+      <td>283</td>
+      <td>Persian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.5.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.50.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.502.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.512.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.525.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.526.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.533.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.539.jpg</th>
+      <td>279</td>
+      <td>Arctic fox, white fox, Alopex lagopus</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.556.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.557.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.577.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.578.jpg</th>
+      <td>337</td>
+      <td>beaver</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.584.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.590.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.594.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.600.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.602.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.603.jpg</th>
+      <td>287</td>
+      <td>lynx, catamount</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.604.jpg</th>
+      <td>151</td>
+      <td>Chihuahua</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.631.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.641.jpg</th>
+      <td>369</td>
+      <td>siamang, Hylobates syndactylus, Symphalangus syndactylus</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.694.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.699.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.714.jpg</th>
+      <td>861</td>
+      <td>toilet seat</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.716.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.724.jpg</th>
+      <td>225</td>
+      <td>malinois</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.740.jpg</th>
+      <td>904</td>
+      <td>window screen</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.749.jpg</th>
+      <td>282</td>
+      <td>tiger cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.767.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.772.jpg</th>
+      <td>284</td>
+      <td>Siamese cat, Siamese</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.777.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.811.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.814.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.906.jpg</th>
+      <td>223</td>
+      <td>schipperke</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.908.jpg</th>
+      <td>377</td>
+      <td>marmoset</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.92.jpg</th>
+      <td>584</td>
+      <td>hair slide</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.921.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.953.jpg</th>
+      <td>197</td>
+      <td>giant schnauzer</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.954.jpg</th>
+      <td>285</td>
+      <td>Egyptian cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.965.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>cat.974.jpg</th>
+      <td>361</td>
+      <td>skunk, polecat, wood pussy</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>cat.994.jpg</th>
+      <td>281</td>
+      <td>tabby, tabby cat</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+</body>
+</html>
+
+    
+</main>
+<!-- Lots of calls above... -->
+    <script>
+      // $(document).ready( function () {
+      // $('#VGG19,#MobileNet').DataTable();
+      //   } );
+      
+            $(document).ready(function() {
+                $('#VGG19,#MobileNet').DataTable();
+            } );
+
+        
+    </script>
+</body>
